@@ -33,4 +33,13 @@ def hello_and_goodbye(person1, person2):
 main()
 
 
+
+def box_string(contents):
+    n = len(contents)
+    print('-' * (n + 2))
+    print('!' + contents + '!')
+    print('-' * (n + 2))
+
+print(box_string('Hello'))
+
 # The code ran as I predicted it would
